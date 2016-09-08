@@ -20,3 +20,5 @@ for key,data in users.items():
   		full_name = (value["first_name"] + " " + value["last_name"]).upper()
 		length = len(value["first_name"]) + len(value["last_name"])
 		print str(number) +"-"+ full_name +"-"+ str(length)
+		
+#Fantastic use of the for key,data in users.items() loop!
